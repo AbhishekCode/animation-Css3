@@ -1,0 +1,17 @@
+#container
+{
+  position: absolute;width:3200px;height: 2400px;top:10px;left:10px;
+  opacity: 1;
+  -webkit-animation:anim 2s; /* Safari and Chrome */
+  overflow: hidden;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s; 
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes anim /* Safari and Chrome */
+{
+from {width :0%; }
+to {width:100%;}
+}
